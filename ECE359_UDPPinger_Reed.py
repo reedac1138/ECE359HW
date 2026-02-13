@@ -8,7 +8,7 @@ Created on Tue Feb 10 16:19:58 2026
 from socket import *
 import time
 
-serverName='localhost'
+serverName='localhost' 
 serverPort=12000
 clientSocket=socket(AF_INET, SOCK_DGRAM)
 clientSocket.settimeout(1.0)
